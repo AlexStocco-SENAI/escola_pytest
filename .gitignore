@@ -1,0 +1,31 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE-specific files (examples)
+.idea/
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Database files (if applicable)
+*.sqlite3
+
+# Log files
+*.log
+
+# Sensitive information (e.g., API keys, passwords)
+# It's crucial to add any files containing sensitive data here.
+# Example:
+# config.ini
+# credentials.json
+
+# Test-related files (if not part of the main codebase)
+.pytest_cache/
