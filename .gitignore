@@ -29,3 +29,5 @@ Thumbs.db
 
 # Test-related files (if not part of the main codebase)
 .pytest_cache/
+
+~#
