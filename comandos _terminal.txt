@@ -1,0 +1,13 @@
+python -m pytest --cov=escola --cov-report=html
+
+python -m pytest --cov=. --cov-omit="tests/*" --cov-report=html
+
+python -m pytest -s -v
+
+pytest --cov=seu_codigo --cov-report=html
+
+python -m pytest --html=tests/relatorio_de_testes.html --self-contained-html
+
+O comentario abaixo, em frente a uma linha de programação irá fazer o teste de cobertura ingnorar aquela linha
+# pragma: no cover
+
